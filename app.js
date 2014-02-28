@@ -3,27 +3,17 @@ Router.configure({
 });
 
 Router.map(function () {
-  /**
-   * The route's name is "home"
-   * The route's template is also "home"
-   * The default action will render the home template
-   */
   this.route('home', {
     path: '/',
     template: 'home'
   });
 
-  /**
-   * The route's name is "guides"
-   * The route's path is "/guides"
-   * The route's template is inferred to be "guides"
-   */
   this.route('guides', {
     path: '/guides'
   });
 
-  this.route('guide', {
-    path: '/guides/:_id',
+  this.route('guideShow', {
+    path: '/guides/:_id',`
 
     load: function () {
       // called on first load
@@ -59,5 +49,13 @@ Router.map(function () {
     unload: function () {
       // before a new route is run
     }
+  });
+
+  this.route('guideNotFound', {
+    path: '/guides/*'
+  });
+
+  this.route('notFound', {
+    path: '*'
   });
 });
