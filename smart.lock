@@ -1,0 +1,27 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "iron-router": {},
+      "bootstrap3-less": {},
+      "kinetic.js": {}
+    },
+    "packages": {
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "tag": "v0.6.4",
+        "commit": "927bbaed1b87894fb6fb70807f74ff3a5bd89f29"
+      },
+      "bootstrap3-less": {
+        "git": "https://github.com/eprochasson/bootstrap3-less",
+        "tag": "v0.1.9",
+        "commit": "5c812c4d7ce72917a065f0424c3cf54e5ff2d16a"
+      },
+      "kinetic.js": {
+        "git": "https://github.com/brentjanderson/meteor-kinetic.git",
+        "tag": "v5.0.1",
+        "commit": "3c29f5bcbcdc9687081b336e59e8387dc02236a5"
+      }
+    }
+  }
+}
