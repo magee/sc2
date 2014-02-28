@@ -51,6 +51,22 @@ Router.map(function () {
     }
   });
 
+  this.route('stylists', {
+    path: '/stylists/*'
+  });
+
+  this.route('stylistShow', {
+    path: '/stylists/:_id'
+  });
+
+  this.route('clients', {
+    path: '/clients/*'
+  });
+
+  this.route('clientShow', {
+    path: '/clients/:_id'
+  });
+
   this.route('guideNotFound', {
     path: '/guides/*'
   });
