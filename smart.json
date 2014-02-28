@@ -3,6 +3,7 @@
     "iron-router": {},
     "bootstrap3-less": {},
     "kinetic.js": {},
-    "iron-router-active": {}
+    "iron-router-active": {},
+    "iron-router-auth": {}
   }
 }
