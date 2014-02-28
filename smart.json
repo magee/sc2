@@ -2,6 +2,7 @@
   "packages": {
     "iron-router": {},
     "bootstrap3-less": {},
-    "kinetic.js": {}
+    "kinetic.js": {},
+    "iron-router-active": {}
   }
 }

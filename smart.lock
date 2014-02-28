@@ -4,7 +4,8 @@
     "basePackages": {
       "iron-router": {},
       "bootstrap3-less": {},
-      "kinetic.js": {}
+      "kinetic.js": {},
+      "iron-router-active": {}
     },
     "packages": {
       "iron-router": {
@@ -21,6 +22,11 @@
         "git": "https://github.com/brentjanderson/meteor-kinetic.git",
         "tag": "v5.0.1",
         "commit": "3c29f5bcbcdc9687081b336e59e8387dc02236a5"
+      },
+      "iron-router-active": {
+        "git": "https://github.com/XpressiveCode/iron-router-active.git",
+        "tag": "v0.1.2",
+        "commit": "54ee348734172c550a4d424007f4cdd491c34715"
       }
     }
   }
