@@ -13,7 +13,7 @@ Router.map(function () {
   });
 
   this.route('guideShow', {
-    path: '/guides/:_id',`
+    path: '/guides/:_id',
 
     load: function () {
       // called on first load
